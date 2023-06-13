@@ -1,0 +1,67 @@
+{
+  "root": true,
+  "parser": "vue-eslint-parser",
+  "extends": [
+    "eslint:recommended",
+    "plugin:vue/vue3-recommended",
+    "plugin:json/recommended-with-comments",
+    "plugin:markdown/recommended",
+    "@nuxtjs/eslint-config-typescript",
+    "plugin:@typescript-eslint/recommended",
+    "prettier"
+  ],
+  "rules": {
+    "lines-between-class-members": 0,
+    "import/prefer-default-export": 0,
+    "max-len": ["error", { "code": 175, "ignoreComments": true }],
+    "no-console": "error",
+    "no-alert": "error",
+    "no-caller": "error",
+    "no-bitwise": "error",
+    "no-cond-assign": "error",
+    "no-trailing-spaces": "error",
+    "no-multiple-empty-lines": ["error", { "max": 3, "maxEOF": 1 }],
+    "camelcase": "error",
+    "quotes": ["error", "single", { "avoidEscape": true, "allowTemplateLiterals": false }],
+    "sort-imports": [
+      "error",
+      {
+        "ignoreCase": true,
+        "ignoreDeclarationSort": true,
+        "ignoreMemberSort": false,
+        "memberSyntaxSortOrder": ["none", "all", "multiple", "single"]
+      }
+    ],
+    "no-param-reassign": 0,
+    "indent": 0,
+    "class-methods-use-this": 0,
+    "quote-props": 0,
+    "no-useless-escape": "warn",
+    "comma-dangle": ["error", "never"],
+    "no-use-before-define": 2,
+    "no-unused-vars": 2,
+    "no-underscore-dangle": 0,
+    "vue/multi-word-component-names": [
+      "error",
+      {
+        "ignores": ["index"]
+      }
+    ],
+    "@typescript-eslint/object-curly-spacing": 0,
+    "@typescript-eslint/typedef": [
+      "error",
+      {
+        "allowExpressions": true,
+        "variableDeclaration": true,
+        "arrowParameter": false
+      }
+    ],
+    "@typescript-eslint/explicit-function-return-type": ["error", { "allowExpressions": true }],
+    "@typescript-eslint/no-inferrable-types": 0,
+    "@typescript-eslint/camelcase": 0,
+    "@typescript-eslint/no-explicit-any": 0,
+    "@typescript-eslint/indent": 0,
+    "@typescript-eslint/lines-between-class-members": 0,
+    "@typescript-eslint/comma-dangle": 0
+  }
+}
