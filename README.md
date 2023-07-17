@@ -9,6 +9,7 @@ This repository is _opinionated_ and will likely change over time.
 - [ESLint](https://eslint.org/)
 - [Prettier](https://prettier.io/)
 - [TypeScript](https://www.typescriptlang.org/)
+- [Vue Query](https://tanstack.com/query/v4/docs/vue/overview)
 
 ## Setup
 
